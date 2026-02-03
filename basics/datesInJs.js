@@ -11,7 +11,9 @@ let myDate = new Date()
 //console.log(myCreatedDate.toLocaleString())
 
 let myCreatedDate = new Date("2026-02-01")//string me month ko 1 se start kiya jata hai
-console.log(myCreatedDate.toLocaleDateString())
+//console.log(myCreatedDate.toLocaleDateString())
+//console.log(myCreatedDate.getTime())
+console.log(Math.floor(Date.now()/1000))
 
 
 
